@@ -30,7 +30,17 @@ business card image and extracting its information. The extracted information sh
 be displayed in a clean and organized manner, and users should be able to easily
 add it to the database with the click of a button. And Allow the user to Read the data,Update the data and Allow the user to delete the data through the streamlit UI
 
-## Approach
+## App
 
-Install the required packages: You will need to install Python, Streamlit,
-easyOCR, and a database management system like SQLite or MySQL.
+The app is designed with a streamlit GUI and multipage access. There will be a complete explanation of this tool on the homepage, along with a YouTube video about the OCR package.
+The following page will be the OCR Tool page, where the user can upload an image file of a business card and extract data from it. Once the image has been uploaded, there will be two outputs: an image with bounding boxes and an editable dataframe in which you can edit the extracted data.
+
+After editing, the edited data will be loaded into a new dataframe with column names specified by the user, which the user can then upload to a database such as MySQL, Postgres, or Sqlite.
+
+The following page is Database management, where you can connect to the database and view the data stored in it. This page includes the ability to update previously existing data as well as delete previously existing data in the database.
+
+## Beta Tool
+
+ OCR Tool Beta is the tool in development. This tool offers more benefits than the deployed tool, but it is still in development. This programme is designed to automatically detect the mail, name, company name, and other information on a business card. Whereas in the deployed tool, data is extracted and then assigned to a specific entity by the user.
+ 
+ 
