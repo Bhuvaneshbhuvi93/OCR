@@ -10,7 +10,7 @@ The extracted data could be edited in the app before being saved in the MySQL da
 * MySQL
 
 ## Skills
-* image processing 
+* Image processing 
 * OCR
 * GUI development
 * database management
@@ -46,5 +46,6 @@ The following page is Database management, where you can connect to the database
 
  OCR Tool Beta is the tool in development. This tool offers more benefits than the deployed tool, but it is still in development. This programme is designed to automatically detect the mail, name, company name, and other information on a business card. Whereas in the deployed tool, data is extracted and then assigned to a specific entity by the user.
  
+ ## Demo Video
  
  
