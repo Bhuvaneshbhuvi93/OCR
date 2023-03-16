@@ -1,0 +1,9 @@
+easyocr==1.6.2
+matplotlib==3.5.2
+mysql_connector_repackaged==0.3.1
+numpy==1.21.5
+opencv_python_headless==4.5.4.60
+pandas==1.4.4
+Pillow==9.4.0
+streamlit==1.19.0
+streamlit_player==0.1.5
